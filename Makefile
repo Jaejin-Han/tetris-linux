@@ -12,4 +12,4 @@ OBJ_NAME = Tetris
 
 #This is the target that compiles our executable
 all : $(OBJS)
-        $(CC) $(OBJS) -o $(OBJ_NAME) $(LDFLAGS)
+	$(CC) $(OBJS) -o $(OBJ_NAME) $(LDFLAGS)
