@@ -4,7 +4,7 @@ OBJS = Main.cpp Piece.cpp View.cpp Board.cpp Game.cpp Commands.cpp
 #CC specifies which compiler we're using
 CC = g++
 
-#LDFLAGS specifies the additional library paths we'll need
+#LDFLAGS specifies what we're linking against
 LDFLAGS = -lSDL2 -lSDL2_gfx
 
 #OBJ_NAME specifies the name of our exectuable
