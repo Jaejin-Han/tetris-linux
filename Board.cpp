@@ -96,7 +96,7 @@ bool Board::isPossibleMovement (int pX, int pY)
 					return 0;
 			}
 			// Check if the piece have collisioned with a block already stored in the map
-            if ( boardY >= 0)
+            		if ( boardY >= 0)
 			{
 				if ( piece->mPiece[i][j] != 0 && !isFreeBlock(boardX, boardY))
 					return false;
@@ -204,7 +204,7 @@ void Board::initBoard()
     for (int i = 0; i < BOARD_WIDTH; i++)
         for (int j = 0; j < BOARD_HEIGHT; j++){
 			mBoard[i][j] = 0;
-		}
+	}
 }
 
 /*
