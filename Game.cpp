@@ -81,8 +81,8 @@ void Game::initGame()
     nextPiece = new Piece(nextPieceType, nextRotation);
     board     = new Board( piece, mScreenHeight );
 
-    posX          = (BOARD_WIDTH / 2) + piece->getXInitialPosition();
-    posY          = piece->getYInitialPosition();
+    posX      = (BOARD_WIDTH / 2) + piece->getXInitialPosition();
+    posY      = piece->getYInitialPosition();
 
     nextPosX = 10;
     nextPosY = 0;
@@ -152,10 +152,10 @@ void Game::drawBoard()
             //Draw the blocks that have been filled
             if(!board->isFreeBlock(i,j)){
                 view->drawBlock( mX1 + i * BLOCK_SIZE,
-									 mY + j * BLOCK_SIZE,
-									BLOCK_SIZE - 1, BLOCK_SIZE - 1,
-									 mColor);
-                                 }
+				 mY + j * BLOCK_SIZE,
+			 	 BLOCK_SIZE - 1, BLOCK_SIZE - 1,
+				 mColor);
+            }
         }
     }
 }
@@ -171,8 +171,8 @@ void Game::drawScene ()
 {
     view->clearScreen();                        // Clear Screen for rendering
     view->loadBackGround();                     // Load background image
-	drawBoard ();				                // Draw the delimitation lines and blocks stored in the board
-	drawPiece (posX, posY, piece);				// Draw the playing piece
+    drawBoard ();				                // Draw the delimitation lines and blocks stored in the board
+    drawPiece (posX, posY, piece);				// Draw the playing piece
     drawPiece (nextPosX, nextPosY, nextPiece);  // Draw the next piece
 
     view->updateScreen();
