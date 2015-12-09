@@ -1,3 +1,4 @@
+
 # Tetris 
 v1.0
 Tetris game in C++ using SDL2 (SDL2 Library included in repository i.e. no need to download)
@@ -15,4 +16,4 @@ space      - drops piece
 
 ENJOY!
 
-P.S. Pull requests welcome 
+
