@@ -8,7 +8,7 @@ sudo apt-get install libsdl2-dev
 sudo apt-get install libsdl2-gfx-dev
 ```
 
-Next, clone source code and compile with
+Next, clone the repository. Change directory to teris-linux and compile with
 ```
 make
 ```
@@ -24,7 +24,7 @@ space      - drops piece
 
 Made by Abesari Woldeysus
 
-### Screenshot
+#### Screenshot
 ![alt text](Tetris-screenshot.png "Screenshot")
 
 ENJOY!
