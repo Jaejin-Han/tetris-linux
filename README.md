@@ -22,6 +22,8 @@ arrow keys - move piece
 
 space      - drops piece
 
+Made by Abesari Woldeysus
+
 ### Screenshot
 ![alt text](Tetris-screenshot.png "Screenshot")
 
